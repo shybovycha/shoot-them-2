@@ -12,6 +12,12 @@ ModelImporter:
     100008: Cube_MeshPart4
     100010: Cube_MeshPart5
     100012: //RootNode
+    100014: Rifle_High_Poly_MeshPart0
+    100016: Rifle_High_Poly_MeshPart1
+    100018: Rifle_High_Poly_MeshPart2
+    100020: Rifle_High_Poly_MeshPart3
+    100022: Rifle_High_Poly_MeshPart4
+    100024: Rifle_High_Poly_MeshPart5
     400000: Cube_MeshPart0
     400002: Cube_MeshPart1
     400004: Cube_MeshPart2
@@ -19,24 +25,48 @@ ModelImporter:
     400008: Cube_MeshPart4
     400010: Cube_MeshPart5
     400012: //RootNode
+    400014: Rifle_High_Poly_MeshPart0
+    400016: Rifle_High_Poly_MeshPart1
+    400018: Rifle_High_Poly_MeshPart2
+    400020: Rifle_High_Poly_MeshPart3
+    400022: Rifle_High_Poly_MeshPart4
+    400024: Rifle_High_Poly_MeshPart5
     2300000: Cube_MeshPart0
     2300002: Cube_MeshPart1
     2300004: Cube_MeshPart2
     2300006: Cube_MeshPart3
     2300008: Cube_MeshPart4
     2300010: Cube_MeshPart5
+    2300012: Rifle_High_Poly_MeshPart0
+    2300014: Rifle_High_Poly_MeshPart1
+    2300016: Rifle_High_Poly_MeshPart2
+    2300018: Rifle_High_Poly_MeshPart3
+    2300020: Rifle_High_Poly_MeshPart4
+    2300022: Rifle_High_Poly_MeshPart5
     3300000: Cube_MeshPart0
     3300002: Cube_MeshPart1
     3300004: Cube_MeshPart2
     3300006: Cube_MeshPart3
     3300008: Cube_MeshPart4
     3300010: Cube_MeshPart5
+    3300012: Rifle_High_Poly_MeshPart0
+    3300014: Rifle_High_Poly_MeshPart1
+    3300016: Rifle_High_Poly_MeshPart2
+    3300018: Rifle_High_Poly_MeshPart3
+    3300020: Rifle_High_Poly_MeshPart4
+    3300022: Rifle_High_Poly_MeshPart5
     4300000: Cube_MeshPart0
     4300002: Cube_MeshPart1
     4300004: Cube_MeshPart2
     4300006: Cube_MeshPart3
     4300008: Cube_MeshPart4
     4300010: Cube_MeshPart5
+    4300012: Rifle_High_Poly_MeshPart0
+    4300014: Rifle_High_Poly_MeshPart1
+    4300016: Rifle_High_Poly_MeshPart2
+    4300018: Rifle_High_Poly_MeshPart3
+    4300020: Rifle_High_Poly_MeshPart4
+    4300022: Rifle_High_Poly_MeshPart5
     7400000: Default Take
     9500000: //RootNode
   materials:

@@ -4,6 +4,7 @@ using System.Collections;
 public class Gun : MonoBehaviour {
     public Transform muzzle;
     public Projectile projectile;
+    // public AudioClip shootSound;
     public int fireRate = 10;
     public float muzzleVelocity = 35;
 
@@ -24,6 +25,7 @@ public class Gun : MonoBehaviour {
         bullet.speed = muzzleVelocity;
 
         GetComponent<Animation>().Play("DoubleBarrelShoot");
+        GetComponent<AudioSource>().Play();
 
         nextShotTime = Time.time + shotDelay;
     }
