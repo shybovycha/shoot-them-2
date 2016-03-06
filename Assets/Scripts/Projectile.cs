@@ -43,7 +43,7 @@ public class Projectile : MonoBehaviour {
         // print(System.String.Format("Hit {0}", hit.collider.name));
 
         if (target != null) {
-            target.TakeHit(damage, hit);
+            target.TakeHit(damage, hit.point, transform.forward);
         }
 
         // Destroy bullet

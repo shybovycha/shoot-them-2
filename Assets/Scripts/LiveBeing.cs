@@ -5,7 +5,6 @@ public class LiveBeing : MonoBehaviour, IDamageable {
     protected float health;
     protected float defaultHealth = 100;
 
-    public event System.Action OnHit;
     public event System.Action OnDeath;
 
     protected bool isAlive {
@@ -14,8 +13,8 @@ public class LiveBeing : MonoBehaviour, IDamageable {
         }
     }
 
-    public virtual void TakeHit(float damage, RaycastHit hit) {
-        print(System.String.Format("Hitting living being with {0} HP for {1} DMG", health, damage));
+    public virtual void TakeHit(float damage, Vector3 hitPosition, Vector3 hitDirection) {
+        // print(System.String.Format("Hitting living being with {0} HP for {1} DMG", health, damage));
 
         if (health > 0) {
             health -= damage;
@@ -23,10 +22,6 @@ public class LiveBeing : MonoBehaviour, IDamageable {
 
         if (!isAlive) {
             Die();
-        }
-
-        if (OnHit != null) {
-            OnHit();
         }
     }
 

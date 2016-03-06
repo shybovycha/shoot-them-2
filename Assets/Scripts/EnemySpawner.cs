@@ -9,7 +9,6 @@ public class EnemySpawner : MonoBehaviour {
         foreach (Transform p in respawnPoints) {
             Enemy e = Instantiate(enemy, p.position, p.rotation) as Enemy;
             e.OnDeath += CountFrag;
-            e.OnHit += CountHit;
             e.transform.parent = p;
         }
     }
