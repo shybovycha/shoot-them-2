@@ -23,6 +23,8 @@ public class Gun : MonoBehaviour {
         Projectile bullet = Instantiate(projectile, muzzle.position, muzzle.rotation) as Projectile;
         bullet.speed = muzzleVelocity;
 
+        GetComponent<Animation>().Play("DoubleBarrelShoot");
+
         nextShotTime = Time.time + shotDelay;
     }
 }
